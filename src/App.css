@@ -1,9 +1,5 @@
 /* Add styling for your page here */
-
-.App {
-
-}
-
-.BakeryItem {
-  
+img {
+    width: 400px;
+    height: auto;
 }
