@@ -37,9 +37,9 @@ function App() {
             <div className="cart">
                 <h2>Cart</h2>
                 {Object.keys(cart.items).map((key) => (
-                    <p>{cart.items[key]}  x{key}</p>
+                    <p>{key}   x{cart.items[key]}</p>
                 ))}
-                <p>Total Price: ${cart.price}</p>
+                <p>Total Price: ${Math.round(cart.price * 100) / 100}</p>
             </div>
         </div>
     );
